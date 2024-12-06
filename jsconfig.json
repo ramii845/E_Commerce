@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "checkJs": true,                       // Vérifie le code JavaScript
+    "jsx": "react-jsx",                    // Utilise le JSX de React (si vous utilisez React 17 ou supérieur)
+    "baseUrl": "src",                       // La base de résolution des modules est le dossier "src"
+    "resolveJsonModule": true,              // Permet d'importer des fichiers JSON
+    "lib": ["es6", "dom", "es2017"],        // Spécifie les bibliothèques utilisées par votre projet
+    "esModuleInterop": true,                // Facilite l'importation des modules CommonJS
+    "forceConsistentCasingInFileNames": true, // Vérifie la casse des noms de fichiers
+    "paths": {
+      "@/*": ["*"]                          // Définit l'alias "@" qui pointe vers "src"
+    },
+    "skipLibCheck": true                    // Ignore les vérifications de type des fichiers de bibliothèques
+  },
+  "include": [
+    "src"                                   // Inclut tous les fichiers du dossier "src"
+  ],
+  "exclude": [
+    "node_modules",                         // Exclut le dossier "node_modules"
+    "build"                                 // Exclut le dossier "build"
+  ]
+}

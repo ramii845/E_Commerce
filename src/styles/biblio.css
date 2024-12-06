@@ -1,0 +1,30 @@
+.abc{
+   
+   
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: 20px
+
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-white{
+   
+    
+
+    background-color: aqua;
+
+    
+
+
+}
+.mySwiper2 img {
+    border-radius: 10px; /* Coins légèrement arrondis */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Effets fluides */
+    border: 1px solid #d3d3d3;
+  }
+  
+ 
+  
